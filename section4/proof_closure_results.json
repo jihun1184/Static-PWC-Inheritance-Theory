@@ -1,0 +1,184 @@
+{
+  "admissibility": "x in Delta X; h Delta-upper-free; and every relevant border cell has a discrete 1-surface border link",
+  "elapsed_seconds": 63.321144,
+  "lemma_4_1": [
+    {
+      "collar_voxels": 8,
+      "dim_h": 1,
+      "dim_x": 0,
+      "enumerated_masks": 240,
+      "enumeration_mode": "complete_collar",
+      "even": 13,
+      "k": 1,
+      "locally_admissible_masks": 13,
+      "m": 2,
+      "odd": 0,
+      "seconds": 0.265292,
+      "violations": 0
+    },
+    {
+      "collar_voxels": 8,
+      "dim_h": 2,
+      "dim_x": 0,
+      "enumerated_masks": 192,
+      "enumeration_mode": "complete_collar",
+      "even": 38,
+      "k": 2,
+      "locally_admissible_masks": 88,
+      "m": 1,
+      "odd": 50,
+      "seconds": 0.300194,
+      "violations": 0
+    },
+    {
+      "collar_voxels": 8,
+      "dim_h": 3,
+      "dim_x": 0,
+      "enumerated_masks": 128,
+      "enumeration_mode": "complete_collar",
+      "even": 63,
+      "k": 3,
+      "locally_admissible_masks": 63,
+      "m": 0,
+      "odd": 0,
+      "seconds": 0.31616,
+      "violations": 0
+    },
+    {
+      "collar_voxels": 12,
+      "dim_h": 2,
+      "dim_x": 1,
+      "enumerated_masks": 3072,
+      "enumeration_mode": "complete_collar",
+      "even": 768,
+      "k": 1,
+      "locally_admissible_masks": 2304,
+      "m": 1,
+      "odd": 1536,
+      "seconds": 5.324186,
+      "violations": 0
+    },
+    {
+      "collar_voxels": 12,
+      "dim_h": 3,
+      "dim_x": 1,
+      "enumerated_masks": 2048,
+      "enumeration_mode": "complete_collar",
+      "even": 1536,
+      "k": 2,
+      "locally_admissible_masks": 1536,
+      "m": 0,
+      "odd": 0,
+      "seconds": 5.196008,
+      "violations": 0
+    },
+    {
+      "collar_voxels": 18,
+      "dim_h": 3,
+      "dim_x": 2,
+      "enumerated_masks": 1,
+      "enumeration_mode": "quotient_by_x_star",
+      "even": 1,
+      "k": 1,
+      "locally_admissible_masks": 1,
+      "m": 0,
+      "odd": 0,
+      "seconds": 0.114737,
+      "violations": 0
+    }
+  ],
+  "lemma_4_1_total_violations": 0,
+  "lemma_4_3_square": {
+    "collar_voxels": 18,
+    "component_size_histogram": {
+      "8": 9926
+    },
+    "components_equal_boundary": 9926,
+    "enumerated_masks": 196608,
+    "fully_persisting_components": 9926,
+    "locally_admissible_masks": 21289,
+    "masks_with_fully_persisting_component": 9926,
+    "seconds": 51.727602,
+    "violations": 0
+  },
+  "lower_rank_containment": [
+    {
+      "ambient_rank": 1,
+      "collar_voxels": 2,
+      "dim_h": 1,
+      "dim_x": 0,
+      "enumerated_masks": 2,
+      "even": 1,
+      "k": 1,
+      "locally_admissible_masks": 1,
+      "m": 0,
+      "odd": 0,
+      "violations": 0
+    },
+    {
+      "ambient_rank": 2,
+      "collar_voxels": 4,
+      "dim_h": 1,
+      "dim_x": 0,
+      "enumerated_masks": 12,
+      "even": 3,
+      "k": 1,
+      "locally_admissible_masks": 9,
+      "m": 1,
+      "odd": 6,
+      "violations": 0
+    },
+    {
+      "ambient_rank": 2,
+      "collar_voxels": 4,
+      "dim_h": 2,
+      "dim_x": 0,
+      "enumerated_masks": 8,
+      "even": 6,
+      "k": 2,
+      "locally_admissible_masks": 6,
+      "m": 0,
+      "odd": 0,
+      "violations": 0
+    },
+    {
+      "ambient_rank": 2,
+      "collar_voxels": 6,
+      "dim_h": 2,
+      "dim_x": 1,
+      "enumerated_masks": 32,
+      "even": 16,
+      "k": 1,
+      "locally_admissible_masks": 16,
+      "m": 0,
+      "odd": 0,
+      "violations": 0
+    }
+  ],
+  "lower_rank_total_violations": 0,
+  "lower_rank_upper_free_inheritance": {
+    "ambient_rank_1": "structural: the neighborhood of a top edge is its two-point 0-surface and has empty border",
+    "ambient_rank_2_edge_collar_voxels": 6,
+    "ambient_rank_2_edge_locally_admissible": 34,
+    "ambient_rank_2_edge_masks": 48,
+    "ambient_rank_2_edge_pwc_neighborhoods": 34,
+    "ambient_rank_2_edge_violations": 0,
+    "ambient_rank_2_top_square": "structural: the neighborhood is the square boundary, a discrete 1-surface with empty border",
+    "border_cardinality_histogram": {
+      "0": 16,
+      "2": 18
+    }
+  },
+  "runtime": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.12.13"
+  },
+  "schema_version": 1,
+  "scope": "ambient_rank_3",
+  "source_sha256": {
+    "local_star_state.py": "360dd79ff5f7b47c9e9200e38ecebf585260fca6c8f8b1eea01d402da48154e2",
+    "run_proof_closure.py": "61671c0f8ed9bdd92cdfd59a363d6342276ba7efda4daf10bcea68168e878b38"
+  },
+  "uses_random_sampling": false,
+  "uses_truncated_global_pwc_filter": false
+}

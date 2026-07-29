@@ -1,0 +1,50 @@
+{
+  "model": {
+    "state_space": "{A,F,T}^k",
+    "admissibility": "a word is in E iff at least one coordinate is A",
+    "cardinality": "|E| = 3^k - 2^k",
+    "basepoint": "p0 = (A,...,A)",
+    "matching_domain": "E minus {p0}",
+    "proof_type": "symbolic for every k >= 3",
+    "random_sampling_used": false
+  },
+  "fixed_endpoint_classification": [
+    {
+      "alpha": "A",
+      "remaining_coordinates": "all T",
+      "distance_from_v": "k-1"
+    },
+    {
+      "alpha": "F",
+      "remaining_coordinates": "all A",
+      "distance_from_v": "k"
+    },
+    {
+      "alpha": "T",
+      "remaining_coordinates": "all A",
+      "distance_from_v": "k"
+    }
+  ],
+  "regression_range": {
+    "k_min": 3,
+    "k_max": 10,
+    "rows": [
+      {"k": 3, "admissible_states": 19, "matching_domain_states": 18, "fixed_endpoint_distances": [2, 3, 3], "sharp_orbit_pairs": 3},
+      {"k": 4, "admissible_states": 65, "matching_domain_states": 64, "fixed_endpoint_distances": [3, 4, 4], "sharp_orbit_pairs": 4},
+      {"k": 5, "admissible_states": 211, "matching_domain_states": 210, "fixed_endpoint_distances": [4, 5, 5], "sharp_orbit_pairs": 5},
+      {"k": 6, "admissible_states": 665, "matching_domain_states": 664, "fixed_endpoint_distances": [5, 6, 6], "sharp_orbit_pairs": 6},
+      {"k": 7, "admissible_states": 2059, "matching_domain_states": 2058, "fixed_endpoint_distances": [6, 7, 7], "sharp_orbit_pairs": 7},
+      {"k": 8, "admissible_states": 6305, "matching_domain_states": 6304, "fixed_endpoint_distances": [7, 8, 8], "sharp_orbit_pairs": 8},
+      {"k": 9, "admissible_states": 19171, "matching_domain_states": 19170, "fixed_endpoint_distances": [8, 9, 9], "sharp_orbit_pairs": 9},
+      {"k": 10, "admissible_states": 58025, "matching_domain_states": 58024, "fixed_endpoint_distances": [9, 10, 10], "sharp_orbit_pairs": 10}
+    ],
+    "violations": 0
+  },
+  "global_attainment": {
+    "k": 3,
+    "radius": 2,
+    "matching_domain_states": 18,
+    "edge_orbits": 3,
+    "status": "confirmed by the retained exact-cover computation"
+  }
+}

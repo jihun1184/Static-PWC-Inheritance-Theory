@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this proof package, please cite the software release and the associated manuscript."
+title: "Static PWC Inheritance Theory: Proof-Closure Code and Certificates"
+type: software
+authors:
+  - family-names: "Bae"
+    given-names: "Jihun"
+repository-code: "https://github.com/jihun1184/Static-PWC-Inheritance-Theory"
+url: "https://github.com/jihun1184/Static-PWC-Inheritance-Theory"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-30
+keywords:
+  - P-well-composedness
+  - cubical complexes
+  - finite posets
+  - computational topology
+  - computer-assisted proof
