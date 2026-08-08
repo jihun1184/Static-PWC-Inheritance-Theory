@@ -20,16 +20,16 @@ on random sampling.
 
 Frozen headline counts:
 
-| Check | Result |
-|---|---:|
-| Lemma 4.1 total violations | 0 |
-| Square masks | 196,608 |
-| Locally admissible square masks | 21,289 |
-| Fully persisting square components | 9,926 |
-| Square-classification violations | 0 |
-| Rank-2 edge masks / admissible masks | 48 / 34 |
-| Lower-rank violations | 0 |
-| Appendix A fixed-endpoint distances | \(k-1,k,k\) |
+| Check                                |      Result |
+| ------------------------------------ | ----------: |
+| Lemma 4.1 total violations           |           0 |
+| Square masks                         |     196,608 |
+| Locally admissible square masks      |      21,289 |
+| Fully persisting square components   |       9,926 |
+| Square-classification violations     |           0 |
+| Rank-2 edge masks / admissible masks |     48 / 34 |
+| Lower-rank violations                |           0 |
+| Appendix A fixed-endpoint distances  | \(k-1,k,k\) |
 
 ## Repository layout
 
@@ -39,8 +39,6 @@ Frozen headline counts:
   certificate, and closure report.
 - `reproducibility/` — execution environment and manuscript-to-certificate
   mapping.
-- `manuscript/` — proof-closed canonical Markdown and the final consistency
-  audit used to freeze this release.
 - `verify_release.py` — one-command release verification.
 
 ## Reproduce
